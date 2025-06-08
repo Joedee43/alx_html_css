@@ -1,5 +1,10 @@
 /* styles.css */
 
+.logo {
+    font-size: 24px; 
+    color:rgb(30, 104, 194); 
+    margin-right: 10px; 
+}
 
 body {
     display: flex;
@@ -17,20 +22,54 @@ main {
 
 article {
     flex: 2; 
-    overflow-y: auto; 
+    overflow-y: auto;
+    background-color: #fafafa; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 20px;
 }
 
 
 aside {
     flex: 1; 
     overflow-y: auto; 
+    background-color: #e9ecef; 
+    padding: 20px; 
+    border-radius: 5px; 
 }
 
 
 header {
-
+ background-color: #f0f0f0; 
+    padding: 10px 20px; 
+}
+header a {
+    color: #333; 
+    text-decoration: none; 
+    padding: 10px; 
 }
 
+header a:hover {
+    background-color:rgb(34, 167, 211); 
+    color: #fff; 
+}
 footer {
     
+}
+
+
+
+.learners-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.learners-table th, .learners-table td {
+    padding: 10px; 
+    border: 1px solid #ccc;
+}
+
+.learners-table th {
+    background-color:rgb(5, 28, 56); 
+    color: white; 
 }
